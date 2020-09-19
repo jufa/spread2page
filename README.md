@@ -1,5 +1,5 @@
 # spread2page
-Batch convert *consistently* aligned photos of a book in spread format (2-up) into compact individual page image files.
+Batch convert *consistently* aligned photos of a book in spread format (2-up) into compact individual page image files suitable for pdf eReading.
 
 ## Prerequistates
  - align your book reasonably square
@@ -13,10 +13,10 @@ Rather than doing command line arg, just dive into the code directly to change a
 ## input
 input file naming: P00001.[png|jpg] incrementing by one per file padded to 5 digits
 ```
-dx,dx pixel offset from top right of image to top right corner of page
-page_width of a single page from dx to gutter (valley) between the 2 pages
-page_height from top to bottom of page
-image_count - number of images(each of which show 2 pages)
+dx,dx = pixel offset from top right of image to top right corner of page
+page_width = of a single page from dx to gutter (valley) between the 2 pages
+page_height = from top to bottom of page
+image_count = number of images(each of which shows 2 pages)
 
 INPUT_IMAGE_FILETYPE = [png|jpg]
 ```
