@@ -1,5 +1,12 @@
 # spread2page
-Batch convert consistently aligned photos of a book in spread format (2-up) into compact individual page image files.
+Batch convert *consistently* aligned photos of a book in spread format (2-up) into compact individual page image files.
+
+## Prerequistates
+ - align your book reasonably square
+ - keep it reasonably flat for photographing
+ - fix the camera using a tripod or mount
+ - consistent lighting (no falloff or gradients across pages, or shadows
+ 
 Rather than doing command line arg, just dive into the code directly to change as needed
 
 This is bare bones for getting the job done, some other things to add would be:
