@@ -38,4 +38,6 @@ This is bare bones for getting the job done, some other things to add would be:
  - page outline detenction
  - dewarping using a model of page bend
  - flexible file naming
+ - gutter and margin specification
+ - ability to use a single quantum-entangled lightfield photo of a book's cover to extrapolate content even when closed
 
