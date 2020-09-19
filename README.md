@@ -2,9 +2,9 @@
 Batch convert *consistently* aligned photos of a book in spread format (2-up) into compact individual page image files suitable for pdf eReading.
 
 ## Prerequistates
- - align your book reasonably square
- - keep it reasonably flat for photographing
- - fix the camera using a tripod or mount
+ - align your book reasonably square (try ficing it in place)
+ - keep it reasonably flat for photographing (a piece of glass or perspex helps)
+ - fix the camera using a tripod or mount, make sure it is squarely facing the book
  - consistent lighting (no falloff or gradients across pages, or shadows
  
 ## args 
@@ -17,6 +17,7 @@ dx,dx = pixel offset from top right of image to top right corner of page
 page_width = of a single page from dx to gutter (valley) between the 2 pages
 page_height = from top to bottom of page
 image_count = number of images(each of which shows 2 pages)
+total_pixel_shift = a measure of the amount the pages move from right to left as the book is paged-through (for thick books)
 
 INPUT_IMAGE_FILETYPE = [png|jpg]
 ```
